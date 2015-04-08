@@ -10,7 +10,6 @@ class GitPaletteView extends SelectListView
   initialize: ->
     super
     @addClass('git-palette')
-    @toggle()
 
   getFilterKey: ->
     'description'
